@@ -22,21 +22,35 @@ h1 {
 
 /* LINKS TO DIFFERENT PAGES */
 
+.bold {
+  font-family: 'Anton', sans-serif;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+
+.regular {
+ font-family: Arial, Helvetica, sans-serif;
+ text-align: right;
+ margin: 0;
+ padding: 0;
+}
+
 header nav ul li a {
   color: white;
   text-decoration: none;
-  margin: 0;
 }
+
 
 /* MEET YOUR MATCH BOX/ ASIDE */
 
-/* POSITIONS THE BOX TO THE RIGHT*/
-div.asiderow {
-  width: 20em;
-  padding: 20px;
-  float: right;
-  background-image:url("../../startup_matchmaker/images/coworking.jpg");
+.asiderow {
+}
 
+
+/* POSITIONS THE BOX TO THE RIGHT*/
+.asiderow {
+background-image:url(../../startup_matchmaker/images/coworking.jpg);
 }
 
 /*CHANGES LOOK OF BOX*/
@@ -46,15 +60,13 @@ div.asiderow {
   border: 1px solid black;
   margin: 5px;
   padding: 15px;
+  width: 20em;
+  padding: 20px;
+  float: right;
 }
 
 .containeryellow {
-  display: inline-block;
-  background-color: green;
-  margin:5px;
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 2px 2px 2px gray;
+  border: 2px solid yellow;
 }
 
 /* Affect looks of grey boxes at the bottom */
@@ -66,8 +78,6 @@ div.asiderow {
   border-radius: 8px;
   box-shadow: 2px 2px 2px gray;
 }
-
-
 
 
 
@@ -125,9 +135,25 @@ section p {
   font-size: 15px;
   width: 12em;
   display: inline-block;
+  margin-bottom: 10;
+  padding-top: 0px;
 }
 
+section ul li {
+  display: block;
+  text-decoration: none;
+  margin-right: 0;   /* space between links */
+  width: auto;   /* adjust width as needed or use auto */
+  padding: 6px;
+  font-weight: bold;
+  line-height: 2em;
+  color: black;
+  border-right: 1px solid gray;
+}
 
+li:last-child {
+border: none;
+}
 
 section ul li a {
   font-family: 'Anton', sans-serif;
