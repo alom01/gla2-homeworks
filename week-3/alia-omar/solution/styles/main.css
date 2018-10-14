@@ -2,10 +2,188 @@
   box-sizing: border-box;
 }
 
+/* HEADER */
+header {
+  background-color: black;
+  border-bottom: 5px solid #f7f44c;
+  margin: 0px;
+  padding: 15px;
+}
+
+/* STARTUP TITLE*/
+h1 {
+  margin: 0;
+  font-size: 30px;
+  color: #f7f44c;
+  font-style: normal;
+  font-weight: normal;
+  font-family: 'Times New Roman', sans-serif;
+}
+
+/* LINKS TO DIFFERENT PAGES */
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  margin: 0;
+}
+
+/* MEET YOUR MATCH BOX/ ASIDE */
+
+/* POSITIONS THE BOX TO THE RIGHT*/
+div.asiderow {
+  width: 20em;
+  padding: 20px;
+  float: right;
+  background-image:url("../../startup_matchmaker/images/coworking.jpg");
+
+}
+
+/*CHANGES LOOK OF BOX*/
+.container{
+  display: inline-block;
+  background-color: white;
+  border: 1px solid black;
+  margin: 5px;
+  padding: 15px;
+}
+
+.containeryellow {
+  display: inline-block;
+  background-color: green;
+  margin:5px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px gray;
+}
+
+/* Affect looks of grey boxes at the bottom */
+.containerbox {
+  display: inline-block;
+  background-color: #bbbec1;
+  margin:5px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px gray;
+}
+
+
+
+
+
+blockquote {
+  margin: 0;
+  text-align: center;
+  background-color: #bbbec1;
+  padding: 20px;
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.graycross {
+  text-decoration: line-through;
+  text-decoration-color: #838487;
+  color: #838487;
+}
+.yellowunder {
+  text-decoration: underline;
+  text-decoration-color: #f7f44c;
+}
+
+
+aside a {
+  text-decoration: none;
+}
+
+aside h2  {
+  font-family: 'Anton', sans-serif;
+}
+
+div aside {
+
+}
+
+
+
+main div aside a {
+  text-align: right;
+  padding-right: 300px;
+  padding-top: 50px
+}
+
+section h2 {
+  font-family: 'Source Serif Pro', serif;
+  font-size-adjust: auto;
+  text-align: inherit;
+  display: inline-block;
+}
+
+section p {
+  font-family: 'Source Serif Pro', serif;
+  font-size: 15px;
+  width: 12em;
+  display: inline-block;
+}
+
+
+
+section ul li a {
+  font-family: 'Anton', sans-serif;
+  color: black;
+  letter-spacing: 1.8px;
+  text-decoration: none;
+}
+
+
+.sectionbit {
+  padding-top: 350px;
+  margin: 60;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  justify-content: center;
+}
+
+
+
+
+footer {
+  background-color: black;
+  padding: 30px;
+  margin: 0;
+}
+
+footer p {
+font-family: 'Arial', sans-serif;
+font-size: 10px;
+color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
 }
 
 .column {
