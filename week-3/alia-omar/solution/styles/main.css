@@ -142,7 +142,8 @@ section p {
 section ul li {
   display: block;
   text-decoration: none;
-  margin-right: 0;   /* space between links */
+  margin-right: 0;
+  margin-left: 5; /* space between links */
   width: auto;   /* adjust width as needed or use auto */
   padding: 6px;
   font-weight: bold;
